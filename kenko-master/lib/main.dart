@@ -14,7 +14,7 @@ void main() {
         '/login': (context) => Login(),
         '/home': (context) => Home(),
         '/profile': (context) => Profile(),
-        '/map': (context) => FreeMapScreen(),
+        '/Map': (context) => FreeMapScreen(),
       },
     ),
   );
