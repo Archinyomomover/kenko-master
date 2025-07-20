@@ -4,10 +4,6 @@ import 'package:latlong2/latlong.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-void main() {
-  runApp(const MaterialApp(home: FreeMapScreen()));
-}
-
 class FreeMapScreen extends StatefulWidget {
   const FreeMapScreen({super.key});
 
