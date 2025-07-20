@@ -20,15 +20,10 @@ class _FreeMapScreenState extends State<FreeMapScreen> {
       'Gym 2': LatLng(1.3010, 103.8010),
       'Gym 3': LatLng(1.3020, 103.8020),
     },
-    'Supermarket': {
-      'Supermarket 1': LatLng(1.3050, 103.8100),
-      'Supermarket 2': LatLng(1.3060, 103.8110),
-      'Supermarket 3': LatLng(1.3070, 103.8120),
-    },
-    '7-Eleven': {
-      '7-Eleven 1': LatLng(1.2990, 103.8020),
-      '7-Eleven 2': LatLng(1.2980, 103.8030),
-      '7-Eleven 3': LatLng(1.2970, 103.8040),
+    'Women-Only Gym': {
+      'WGym 1': LatLng(1.3050, 103.8100),
+      'WGym 2': LatLng(1.3060, 103.8110),
+      'WGym 3': LatLng(1.3070, 103.8120),
     },
   };
 

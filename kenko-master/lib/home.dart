@@ -22,7 +22,7 @@ class _HomeState extends State<Home> {
     Container(),            // Home (not yet implemented)
     Container(),            // Dashboard (not yet implemented)
     Container(),            // Add (not yet implemented)
-    FreeMapScreen(),        // ✅ Map page you built
+    FreeMapScreen(),        //  Map page
     Container(),            // Mental (not yet implemented)
   ];
 
@@ -45,7 +45,7 @@ class _HomeState extends State<Home> {
           BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
           BottomNavigationBarItem(icon: Icon(Icons.dashboard), label: 'Dashboard'),
           BottomNavigationBarItem(icon: Icon(Icons.add_circle), label: 'Add'),
-          BottomNavigationBarItem(icon: Icon(Icons.map), label: 'Map'), // ✅ Map
+          BottomNavigationBarItem(icon: Icon(Icons.map), label: 'Map'), 
           BottomNavigationBarItem(icon: Icon(Icons.self_improvement), label: 'Mental'),
         ],
       ),
